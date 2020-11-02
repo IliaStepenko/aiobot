@@ -8,7 +8,7 @@ from aiogram.utils.executor import start_webhook
 from cv2 import cv2
 
 
-TOKEN = '1019187234:AAFDX_Omr5ipqZUxjUc7e-HwwqLgENe3Y9E'
+TOKEN = os.environ['TOKEN']
 
 
 WEBHOOK_HOST = 'https://myawesomebot199.herokuapp.com'  # name your app
