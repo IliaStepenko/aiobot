@@ -33,7 +33,7 @@ async def welcome(message: types.Message):
         disable_web_page_preview=True)
 
     
- async def create_gif_from_image(filename):
+async def create_gif_from_image(filename):
     frame = cv2.imread(filename, cv2.IMREAD_UNCHANGED)
 
     res_file_name = f"{filename.replace('.jpg','')}.mp4"
